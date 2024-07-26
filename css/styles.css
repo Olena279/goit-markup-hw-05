@@ -397,7 +397,7 @@ a {
 }
 
 .footer-soc-contact {
-  margin-right: 208px;
+  margin-right: 80px;
   height: 80px;
 }
 
@@ -444,7 +444,9 @@ a {
   fill: #f4f4fd;
 }
 
-.footer-subscribe {
+.footer-subscribe-container {
+  width: 453px;
+  height: 80px;
   margin-left: auto;
 }
 .footer-subscribe-title {
@@ -459,6 +461,25 @@ a {
   display: flex;
   gap: 24px;
 }
+.footer-input {
+  border: 1px solid #fff;
+  border-radius: 4px;
+  width: 264px;
+  height: 40px;
+  background: transparent;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+}
+
+.footer-input::placeholder {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #fff;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 19px;
+}
 
 .footer-subscribe-btn {
   display: flex;
@@ -470,17 +491,26 @@ a {
   letter-spacing: 0.04em;
   text-align: center;
   color: #fff;
-  padding-top: 8px;
-  padding-right: 24px;
-  padding-bottom: 8px;
-  padding-left: 24px;
+  padding: 8px 24px;
   background-color: #4d5ae5;
   min-width: 165px;
   height: 40px;
+  gap: 16px;
   cursor: pointer;
   border: none;
   border-radius: 4px;
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-subscribe-btn:hover,
+.footer-subscribe-btn:focus {
+  background-color: #31d0aa;
+}
+
+.footer-send-icon {
+  width: 24px;
+  height: 20px;
+  fill: #fff;
 }
 
 .backdrop {
