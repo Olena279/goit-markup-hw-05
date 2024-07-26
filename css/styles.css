@@ -629,7 +629,6 @@ a {
 
 .modal-input:focus + .modal-input-icon {
   fill: #4d5ae5;
-  height: 12px;
 }
 
 .input-svg {
